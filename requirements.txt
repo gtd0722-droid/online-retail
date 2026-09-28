@@ -1,0 +1,4 @@
+pandas
+openpyxl
+matplotlib
+statsmodels>=0.14,<0.15
