@@ -1,0 +1,11 @@
+﻿name,value,note
+holt_alpha,0.04102480317795607,Holt 수준 평활계수
+holt_beta,0.0,Holt 추세 평활계수
+holt_initial_level,21924.720448526157,Holt 초기 수준 l0
+holt_initial_trend,74.18141312918412,Holt 초기 추세 b0 (영업일당 변화량)
+holt_last_level,40688.853158586666,학습 마지막 영업일의 수준 l_T
+holt_last_trend,74.18141312918306,학습 마지막 영업일의 추세 b_T (영업일당)
+holt_train_sse,45353565660.84829,학습 1단계 예측 제곱오차합
+ses_alpha,0.06256984900281651,비교용 SES 평활계수
+ses_initial_level,24719.534738923852,비교용 SES 초기 수준
+ses_train_sse,45736007944.062546,비교용 SES 학습 제곱오차합

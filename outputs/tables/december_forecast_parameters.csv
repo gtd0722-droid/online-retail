@@ -1,0 +1,34 @@
+﻿name,value,note
+train_range,2011-01-01 ~ 2011-11-30,학습 구간
+n_train_open_days,277,학습 영업일 수
+n_train_slots,286,Holt-Winters 학습 자리 수(토요일 제외 달력일)
+n_filled_slots,9,토요일 외 휴무일 채움 건수
+ses_alpha,0.08322703312562481,SES 평활계수
+ses_initial_level,25384.6894308148,SES 초기 수준
+ses_forecast,52508.975460913236,SES 예측값(일정)
+holt_alpha,0.05732642658711965,Holt 수준 평활계수
+holt_beta,0.015518780791149643,Holt 추세 평활계수
+holt_initial_level,21918.861256008797,Holt 초기 수준
+holt_initial_trend,6.364009543881873,Holt 초기 추세
+hw_selected_seasonal,mul,Holt-Winters 계절성(학습 AICc 기준)
+hw_aicc_add,5388.381340668594,덧셈 AICc
+hw_aicc_mul,5378.091767387722,곱셈 AICc
+hw_alpha,0.09825741318835549,HW 수준 평활계수
+hw_beta,0.0,HW 추세 평활계수
+hw_gamma,0.0,HW 계절 평활계수
+hw_initial_level,28150.822939248184,HW 초기 수준
+hw_initial_trend,85.64951120213104,HW 초기 추세
+n_forecast_days,20,"예측한 영업 가능일 수(토요일 제외, 12-23까지)"
+n_known_days,7,실제값이 있는 예측일(12-01~12-08 영업일)
+ref_ses_forecast_MAE,15038.45337389433,12-01~12-08 참고 비교
+ref_ses_forecast_RMSE,18995.959778259323,12-01~12-08 참고 비교
+ref_ses_forecast_MAPE(%),31.60330314162247,12-01~12-08 참고 비교
+ref_ses_forecast_ME(실제-예측),6186.638824801051,12-01~12-08 참고 비교
+ref_holt_forecast_MAE,14264.156303738784,12-01~12-08 참고 비교
+ref_holt_forecast_RMSE,17913.189844262954,12-01~12-08 참고 비교
+ref_holt_forecast_MAPE(%),32.12278000435741,12-01~12-08 참고 비교
+ref_holt_forecast_ME(실제-예측),2863.5859052228916,12-01~12-08 참고 비교
+ref_hw_forecast_MAE,11169.826230917048,12-01~12-08 참고 비교
+ref_hw_forecast_RMSE,12969.58123322711,12-01~12-08 참고 비교
+ref_hw_forecast_MAPE(%),17.68744215644193,12-01~12-08 참고 비교
+ref_hw_forecast_ME(실제-예측),2635.811620614363,12-01~12-08 참고 비교
